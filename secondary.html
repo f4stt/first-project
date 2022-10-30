@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 0 auto;
+            background-color: rgb(40, 77, 40);
+        }
+
+        td {
+            width: 100px;
+            height: 100px;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 1200px; margin: 0 auto;">
+        <a href="/"> На главную</a> <a href="secondary.html">вперед</a>
+        <h1 style="text-align: center;">Таблица</h1>
+
+        <table style="width: 100%;">
+            <tbody>
+                <tr>
+                    <td style="background-color:red ;" colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="3" style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="background-color: yellow;"></td>
+                    <td></td>
+                    <td colspan="3" rowspan="2" style="background-color: gray;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="3" style="background-color:blue ;"></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2" style="background-color: red;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: yellow;"></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</body>
+
+</html>
