@@ -1,0 +1,65 @@
+@import url('reset.css');
+
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+}
+
+.header {
+    padding: 30px 0;
+    background-color: aqua;
+}
+
+.card-image>img {
+    height: 600px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.table-row {
+    width: 100%;
+}
+
+.table-cell {
+    width: 33.33%;
+
+}
+
+.table-cell:not(:last-child) {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: brown;
+}
